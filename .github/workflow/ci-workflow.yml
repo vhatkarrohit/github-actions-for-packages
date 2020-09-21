@@ -5,7 +5,7 @@ name: Node CI
 on:
   push:
     paths:
-      - "**Dockerfile**"
+      - ".github/workflow/ci-workflow.yml"
 jobs:
   build:
     runs-on: ubuntu-latest
